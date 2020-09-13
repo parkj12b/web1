@@ -1,0 +1,160 @@
+a:-webkit-any-link {
+    text-decoration: none;
+}
+#right_nav {
+    position: absolute;
+    right: 14px;
+    top: 0;
+    z-index: 1000;
+    height: 35px;
+    line-height: 12px;
+}
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary, time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+}
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+#whole_wrapper>.head header {
+    position: relative;
+    text-align: center;
+    z-index: 14;
+}
+body {
+    font-family: Arial ,sans-serif;
+    font-size: 1em;
+    color: #666;
+}
+ul {
+    display: block;
+    list-style-type: disc;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+}
+#right_nav>ul>li {
+    display: block;
+    float: right;
+    position: relative;
+    height: 35px;
+    line-height: 35px;
+}
+li {
+    display: list-item;
+    text-align: -webkit-match-parent;
+}
+ol, ul {
+    list-style: none;
+}
+#right_nav>ul>li>a.title {
+    color: #ccc;
+    cursor: pointer;
+    display: block;
+    font-size: 12px;
+    height: 35px;
+    line-height: 35px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+#whole_wrapper>.head header hgroup p.title a {
+    font-size: 2.4em;
+    color: #fff;
+}
+#whole_wrapper>.head {
+    background-color: #4d6c8b;
+}
+#whole_wrapper>.head header hgroup p.subtitle small {
+    color: #a3bfdb;
+    font-size: 1.1em;
+    padding: 0 10px;
+}
+#whole_wrapper>.head header hgroup {
+    padding-top: 80px;
+}
+#whole_wrapper>.head nav#main_menu {
+    z-index: 11;
+}
+#whole_wrapper>.head nav#main_menu>div.wrapper>ul {
+    padding: 1.2em;
+    text-align: center;
+}
+#whole_wrapper>.head nav#main_menu>div.wrapper>ul>li>div.label>a {
+    color: #ddd;
+    font-size: 1.2em;
+    padding: 10px 15px;
+}
+#whole_wrapper>.head nav#main_menu>div.wrapper>ul>li {
+    display: inline-block;
+    padding: 10px 0;
+    z-index: 12;
+    position: relative;
+}
+#whole_wrapper div#body #breadcrumb .wrapper {
+    width: 980px;
+    height: 40px;
+    line-height: 40px;
+    margin: 0 auto;
+    position: relative;
+    vertical-align: middle;
+}
+#whole_wrapper div#body #breadcrumb {
+    background-color: #eee;
+    border-bottom: 1px solid #ddd;
+}
+body {
+    line-height: 1;
+}
+body.cke_editable, article div#content, form#diff_dialog div.body div.wrapper {
+    font-family: NanumGothic,sans-serif;
+    line-height: 1.8;
+    font-size: 1.1em;
+    padding: 10px;
+    color: #666;
+}
+body.cke_editable p, article div#content p, form#diff_dialog div.body div.wrapper p {
+    margin: 1em 0;
+}
+p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+#whole_wrapper div#body div#cols div.entry-area article {
+    min-height: 400px;
+    padding: 40px 35px;
+}
+body.no_sidebar div#body div#cols .wrapper div.entry-area article {
+    width: 770px;
+    margin: 0 auto;
+}
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+body.no_sidebar div#body div#cols .wrapper div.entry-area {
+    width: auto !important;
+    float: none !important;
+    margin: 0 auto;
+}
+#whole_wrapper div#body div#cols>div.wrapper {
+    width: 980px;
+    margin: 0 auto;
+    position: relative;
+    border-left: 1px solid #ddd;
+    border-right: 1px solid #ddd;
+}
+article div#content div.video{
+    text-align: center;
+    margin: 20 0;
+    background-position: center center;
+    background-repeat: no-repeat;
+    line-height: 11px;
+}
