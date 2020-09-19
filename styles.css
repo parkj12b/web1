@@ -25,6 +25,9 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
     text-align: center;
     z-index: 14;
 }
+.sub_nav{
+    margin:0;
+}
 body {
     font-family: Arial ,sans-serif;
     font-size: 1em;
@@ -169,7 +172,7 @@ article div#content div.video{
     padding-bottom: 1em;
     margin-bottom: 2em;
     position: relative;
-    border-bottom: 1px solid #333;
+    border-bottom: 1px solid;
     text-align: center;
     line-height: 1.8;
 }
