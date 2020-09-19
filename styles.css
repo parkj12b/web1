@@ -158,3 +158,18 @@ article div#content div.video{
     background-repeat: no-repeat;
     line-height: 11px;
 }
+
+#whole_wrapper div#body div#cols div.entry-area article hgroup h1 {
+    color: #333;
+    font-size: 2.1em;
+    font-weight: normal;
+}
+
+#whole_wrapper div#body div#cols div.entry-area article hgroup {
+    padding-bottom: 1em;
+    margin-bottom: 2em;
+    position: relative;
+    border-bottom: 1px solid #333;
+    text-align: center;
+    line-height: 1.8;
+}
